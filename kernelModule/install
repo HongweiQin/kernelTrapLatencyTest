@@ -1,0 +1,3 @@
+#!/bin/bash
+insmod ktlt.ko
+echo "c" > /proc/ktlt/ctrl

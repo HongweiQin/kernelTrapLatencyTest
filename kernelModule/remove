@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "d" > /proc/ktlt/ctrl
+rmmod  ktlt.ko
+
