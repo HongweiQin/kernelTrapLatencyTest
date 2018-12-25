@@ -11,6 +11,9 @@ cd userApp
 make
 ./userApp $NrWrite $Direct
 ```
-$NrWrite is the number of writes
-$Direct==1 means write operations dont' trap into kernel
-$Direct==0 means write operations will trap into kernel
+
+**$NrWrite** is the number of writes
+
+**$Direct==1** means write operations dont' trap into kernel
+
+**$Direct==0** means write operations will trap into kernel
